@@ -17,6 +17,7 @@ RUN apt-get update \
     git \
     llvm-15 \
     make \
+  && ln -s /usr/bin/clang-15 /usr/bin/clang \
   && rm -rf /var/lib/apt/lists/*
 
 RUN curl -o ponyup-init.sh https://raw.githubusercontent.com/ponylang/ponyup/${PONYUP_VER}/ponyup-init.sh
