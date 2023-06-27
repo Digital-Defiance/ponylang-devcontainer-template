@@ -1,0 +1,8 @@
+{
+  "locks": [
+    {
+      "locator": "github.com/Digital-Defiance/ponylang-devcontainer-template-test",
+      "revision": "main"
+    }
+  ]
+}

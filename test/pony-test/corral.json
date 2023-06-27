@@ -1,0 +1,9 @@
+{
+    "deps": [
+      {
+        "locator": "github.com/Digital-Defiance/ponylang-devcontainer-template-test",
+        "version": "main"
+      }
+    ]
+  }
+  
